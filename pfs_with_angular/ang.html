@@ -1,0 +1,21 @@
+<html  ng-app ="precisionApp">
+<head>
+        <link href="css/style.css" rel="stylesheet">
+</head>
+<body ng-controller="PrecisionController">
+<div id="set-height">
+<video id="v0" controls preload="metadata" width="750px" height="540px">
+    <source src="2.mp4"
+            type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+
+</video>
+<canvas id="canvas"
+        width="750px" height="540px"
+        style="display:block;">
+</canvas>
+<div id="screenShots"></div>
+</div>
+<script src="js/angular.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+#set-height {
+  display: block;
+}
+#v0 {
+  position: fixed;
+  top: 10;
+  left: 10;
+
+}
+p font-family helvetica {
+  font-size: 24px;
+}
+
+    /* video */
+  video { width: 100%; min-height: 460px; }
+  canvas { display: none;
+    position: absolute;
+    top: 412px;
+    left: 242px;
+    width: 177px;}
+  #screenShots { text-align: left; }
+  button { cursor: pointer; }
+  nav>button { margin: 0.27em; }
+  nav>button:first-child { margin-left: 0; }
+  .wrapper { width: 754px; margin: auto; overflow: hidden; text-align: center; }
+  .p {
+    text-align: center;
+    padding-top: 120px;
+  }
+
