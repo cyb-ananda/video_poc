@@ -1,0 +1,50 @@
+.container {
+    margin:10px;
+    background:#c2ccd1;
+    height: auto;
+	border: 1px solid black;
+}
+.videoPlayer{
+    float:left;
+    width:1100px;
+    padding: 10px;
+}
+.segment_controller {
+	border: 1px solid black;
+    margin-left:55px;
+    padding: 10px;
+	float: left;
+}
+
+.video_segment {
+	border: 1px solid black;
+    margin-left:55px;
+    padding: 10px;
+	float: left;
+}
+
+.canvasContainer {
+}
+
+#canvas{
+    position: absolute;
+    top: 625px;
+    height: 80px;
+    width: 150px;
+    left: 19px;
+    display: block;
+    z-index: 2;
+}
+
+.vjs-waveform {
+	height:264px;
+	width:640px;
+	float:left;
+	margin-left:5px;
+}
+
+progress {
+	margin-left:5px;
+	width: 640px;
+	float:left;
+}
